@@ -1,0 +1,69 @@
+.section-five-wrapper {
+    background-color: #cbd7fa; /* Very light bluish-purple color */
+    padding: 40px;
+    border-radius: 8px;
+    height: 620px; 
+    margin-top: 200px;
+}
+
+.section-five-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.section-five {
+    width: 50%;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.section-five h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.section-five p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.section-five-image {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.features {
+    display: flex; /* Align features in a row */
+    justify-content: space-between; /* Space between features */
+    margin-top: 20px; /* Space above features */
+    padding: 0 50px; /* Optional padding on the sides */
+    gap: 20px; /* Space between features */
+}
+
+.feature {
+    width: 30%; /* Maintain feature width */
+    padding: 20px;
+    background-color: white; /* Give a background to the features */
+    border-radius: 8px; /* Optional: Rounded corners for feature blocks */
+    text-align: left;
+    box-shadow: none; /* Remove any box shadow if present */
+}
+
+.feature h3 {
+    font-size: 20px;
+    color: #11113d;
+    display: flex; /* Use flex to align icon and text */
+    align-items: center; /* Center aligns text with icon */
+    gap: 10px; /* Space between icon and text */
+}
+
+.feature h3 .icon {
+    color: rgb(211, 20, 211); /* Color the icons purple */
+}
+
+.feature p {
+    font-size: 16px;
+    color: #4f4f4f;
+}

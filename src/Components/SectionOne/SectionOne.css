@@ -1,0 +1,21 @@
+.section-one {
+    text-align: center;
+    padding: 150px;
+    background-color: #0e0e1f;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 30vh; /* Full viewport height to center content */
+}
+
+.section-one h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.section-one p {
+    font-size: 18px;
+    color: grey;
+}

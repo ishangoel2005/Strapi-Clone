@@ -1,0 +1,102 @@
+.end-section {
+    display: flex;
+    color: #333;
+    margin-top: 250px; /* Add top margin to push the section down */
+    padding: 0 100px;
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    margin-right: 50px;
+    text-align: center;
+  }
+  
+  .main-logo {
+    height: 40px;
+    width: auto;
+    margin-bottom: 10px;
+  }
+  
+  .info-text {
+    font-size: 14px;
+    color: #666;
+    margin: 15px 0;
+    line-height: 1.6;
+  }
+  
+  .certification-logos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .small-logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  .footer {
+    display: flex; /* Use flexbox for layout */
+    gap: 50px; /* Space between columns */
+    flex-wrap: nowrap; /* Prevent wrapping to keep columns on one line */
+    padding: 0 40px; /* Add padding on the sides */
+    margin-top: 50px; /* Optional: spacing above footer */
+}
+
+.footer-column {
+    flex: 1; /* Allows each column to grow equally */
+    min-width: 150px; /* Minimum width to prevent collapsing */
+    max-width: 200px; /* Maximum width to maintain layout */
+    text-align: left;
+}
+  
+  .footer-column h4 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-column ul li:hover {
+    color: #000;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 430px;
+    color: #666;
+    font-size: 13px;
+    right: 3px;
+  }
+  
+  .footer-links {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-links a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
