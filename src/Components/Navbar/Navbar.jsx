@@ -1,13 +1,13 @@
 import React from 'react';
 import './Navbar.css';
 import { FaSearch } from 'react-icons/fa';
-import logo from '../../assets/strapi logo.png'; // Adjust the path based on your file structure
+import logo from '../../assets/strapi logo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={logo} alt="Logo" className="logo-image" /> {/* Use img tag for the logo */}
+        <img src={logo} alt="Logo" className="logo-image" />
       </div>
       <ul className="navbar-links">
         <li><a href="#products">Products</a></li>

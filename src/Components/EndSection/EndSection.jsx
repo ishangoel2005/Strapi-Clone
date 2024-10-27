@@ -1,7 +1,5 @@
 import React from 'react';
 import './EndSection.css';
-
-// Replace these paths with your actual image paths
 import Logo1 from '../../assets/strapi logo.png';
 import Logo2 from '../../assets/logo2.png';
 

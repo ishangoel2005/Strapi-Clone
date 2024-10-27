@@ -1,68 +1,58 @@
 .section-three-wrapper {
-    background-color: #cbd7fa; /* Very light bluish-purple color */
+    background-color: #cbd7fa;
     padding: 40px;
     border-radius: 8px;
     height: 620px; 
     margin-top: 80px;
 }
-
 .section-three-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-
 .section-three {
     width: 50%;
     text-align: left;
     padding-right: 20px;
 }
-
 .section-three h1 {
     font-size: 40px;
     margin-bottom: 20px;
 }
-
 .section-three p {
     font-size: 18px;
     margin-bottom: 20px;
 }
-
 .section-three-image {
     width: 50%;
     margin-top: 50px;
 }
-
 .features {
-    display: flex; /* Align features in a row */
-    justify-content: space-between; /* Space between features */
-    margin-top: 20px; /* Space above features */
-    padding: 0 50px; /* Optional padding on the sides */
-    gap: 20px; /* Space between features */
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 20px; 
+    padding: 0 50px; 
+    gap: 20px; 
 }
-
 .feature {
-    width: 30%; /* Maintain feature width */
+    width: 30%; 
     padding: 20px;
-    background-color: white; /* Give a background to the features */
-    border-radius: 8px; /* Optional: Rounded corners for feature blocks */
+    background-color: white; 
+    border-radius: 8px; 
     text-align: left;
-    box-shadow: none; /* Remove any box shadow if present */
+    box-shadow: none; 
 }
-
 .feature h3 {
     font-size: 20px;
     color: #11113d;
-    display: flex; /* Use flex to align icon and text */
-    align-items: center; /* Center aligns text with icon */
-    gap: 10px; /* Space between icon and text */
+    display: flex; 
+    align-items: center;
+    gap: 10px;
 }
-
 .feature h3 .icon {
-    color: rgb(211, 20, 211); /* Color the icons purple */
+    color: rgb(211, 20, 211); 
 }
-
 .feature p {
     font-size: 16px;
     color: #4f4f4f;

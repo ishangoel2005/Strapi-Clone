@@ -3,58 +3,48 @@
     padding: 80px;
     color: #11113d;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
   }
-  
   .section-two h2{
     font-size: 50px;
   }
   .section-two p{
     font-size: 20px;
   }
-
   .features {
     position: relative;
-    width: 100%; /* Full width to allow spacing */
-    padding: 0 50px; /* Optional padding on the sides */
+    width: 100%; 
+    padding: 0 50px; 
 }
-
 .feature {
     width: 30%;
     padding: 20px;
-    border-left: 2px solid #ddd; /* Adds the "stick" border to the left */
-    background-color: transparent; /* Remove background color */
-    position: absolute; /* To allow individual positioning */
+    border-left: 2px solid #ddd; 
+    background-color: transparent; 
+    position: absolute; 
     text-align: left;
 }
-
-/* Position each feature individually */
 .feature:nth-child(1) {
-    left: 0; /* Aligns the first feature to the left */
+    left: 0; 
 }
-
 .feature:nth-child(2) {
-    left: 35%; /* Centers the second feature */
+    left: 35%;
 }
-
 .feature:nth-child(3) {
-    right: 0; /* Aligns the third feature to the right */
+    right: 0;
 }
-
 .feature h3 {
     font-size: 20px;
     color: #11113d;
     display: flex;
-    align-items: center; /* Center aligns text with icon */
-    gap: 10px; /* Space between icon and text */
+    align-items: center; 
+    gap: 10px; 
 }
-
 .feature h3 .icon {
-    color: rgb(211, 20, 211); /* Color the icons purple */
+    color: rgb(211, 20, 211); 
 }
-
 .feature p {
     font-size: 16px;
     color: #4f4f4f;

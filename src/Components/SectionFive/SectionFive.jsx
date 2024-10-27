@@ -1,7 +1,7 @@
 import React from 'react';
-import './SectionFive.css'; // Import the CSS for Section Five
-import deploy from '../../assets/deploy.png'; // Replace with the appropriate image for Section 5
-import { FaCogs, FaPlug, FaUsers } from 'react-icons/fa'; // Reuse icons or use different ones
+import './SectionFive.css';
+import deploy from '../../assets/deploy.png'; 
+import { FaCogs, FaPlug, FaUsers } from 'react-icons/fa'; 
 
 const SectionFive = () => {
   return (
@@ -14,11 +14,9 @@ const SectionFive = () => {
           </p>
         </div>
 
-        {/* Image Section */}
         <img src={deploy} alt="Description" className="section-five-image" />
       </div>
 
-      {/* Features Section */}
       <div className="features">
         <div className="feature">
           <h3>

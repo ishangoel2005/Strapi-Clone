@@ -1,7 +1,7 @@
 import React from 'react';
-import './SectionFour.css'; // Import the CSS for Section Four
-import cms from '../../assets/cms.png'; // Replace with the appropriate image for Section 4
-import { FaCogs, FaPlug, FaUsers } from 'react-icons/fa'; // Reuse icons or use different ones
+import './SectionFour.css'; 
+import cms from '../../assets/cms.png'; 
+import { FaCogs, FaPlug, FaUsers } from 'react-icons/fa'; 
 
 const SectionFour = () => {
   return (
@@ -14,11 +14,9 @@ const SectionFour = () => {
           </p>
         </div>
 
-        {/* Image Section */}
         <img src={cms} alt="Description" className="section-four-image" />
       </div>
 
-      {/* Features Section */}
       <div className="features">
         <div className="feature">
           <h3>

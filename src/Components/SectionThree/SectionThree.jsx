@@ -1,7 +1,7 @@
 import React from 'react';
 import './SectionThree.css';
 import api from '../../assets/api creation.png';
-import { FaCogs, FaPlug, FaUsers } from 'react-icons/fa'; // Importing the icons
+import { FaCogs, FaPlug, FaUsers } from 'react-icons/fa';
 
 const SectionThree = () => {
   return (
@@ -14,11 +14,9 @@ const SectionThree = () => {
           </p>
         </div>
 
-        {/* Image Section */}
         <img src={api} alt="Description" className="section-three-image" />
       </div>
 
-      {/* Features Section */}
       <div className="features">
         <div className="feature">
           <h3>
